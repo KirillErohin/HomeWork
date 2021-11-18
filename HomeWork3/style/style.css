@@ -1,0 +1,88 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1090px;
+    margin: 0 auto;
+
+}
+
+/* HEDER */
+
+.header-li{
+    font-size: 18px;
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 45px;
+    
+}
+
+.header-li > a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+.header-ul{
+    text-align: center;
+    padding: 55px 0;
+}
+
+
+    /* MAIN */
+  
+
+.bg-main{
+    
+    background-image: url(../img/bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0 162px;
+}
+
+.text-main{
+    padding: 140px 0 24px;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    color: white;
+    text-align: center;
+
+}
+        /* Кнопка покупки */
+.button-main{
+    width: 420px;
+    height: 70px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    display:block;
+    margin:0 auto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+}
+.button-main:hover{
+    background: #5C98AB;
+    color: white;
+    border: none;
+}
+
+            /* Инф текст */
+
+.bg-pretitle{
+    background: #5C98AB;
+}
+.text-pretitle{
+    width: 726px;
+    height: 265px;
+    color: white;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 135px 0;
+    
+}
