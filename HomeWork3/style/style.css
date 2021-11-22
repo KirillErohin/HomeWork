@@ -4,6 +4,7 @@ body{
 .container{
     max-width: 1090px;
     margin: 0 auto;
+   
 
 }
 
@@ -30,7 +31,7 @@ body{
 
 
     /* MAIN */
-  
+
 
 .bg-main{
     
@@ -52,12 +53,10 @@ body{
 }
         /* Кнопка покупки */
 .button-main{
-    width: 420px;
-    height: 70px;
+    padding: 10px 120px;
     border: none;
     background: #FFFFFF;
     border-radius: 5px;
-    position: relative;
     display:block;
     margin:0 auto;
     font-weight: bold;
@@ -76,8 +75,7 @@ body{
     background: #5C98AB;
 }
 .text-pretitle{
-    width: 726px;
-    height: 265px;
+    max-width: 726px;
     color: white;
     font-size: 36px;
     line-height: 49px;
@@ -85,4 +83,131 @@ body{
     margin: 0 auto;
     padding: 135px 0;
     
+}
+
+/* Контент */
+
+.container-bg{
+    max-width: 100%;
+    margin: 0 auto ;
+    position: relative;
+
+}
+
+.bg-one{
+    background-size: cover;
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    left: -410px;
+    top: -125px;
+   
+    
+}
+.bg-two{
+   
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    left: -410px;
+    top: 125px;
+   
+}
+.bg-three{
+   
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+    justify-content: right;
+   right: -410px ;
+    top: -10px;
+   
+}
+
+
+
+.text-one{
+    max-width: 700px;
+     font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin: 220px auto;
+    
+}
+
+.text-two{
+    position: relative;
+    max-width: 700px;
+    font-size: 36px;
+   line-height: 42px;
+   text-align: center;
+   margin: 220px auto;
+}
+
+.text-two::before{
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    border-radius: 90px;
+    background: #5C98AB;
+    left: -10%;
+    top: -20%;
+    
+   
+}
+
+.text-two::after{
+    content: "";
+    position: absolute;
+
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+    background: #BFDEFB;
+    right: -20%;
+}
+
+
+/* Регестрация */
+
+.container-regitr{
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.form-registr{
+
+}
+
+.input-holder, .input{
+width: 100%;
+}
+.input-holder{
+    margin: 30px 0;
+    position: relative;
+}
+.input{
+    padding: 36px 0 11px 34px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.input::placeholder{
+    color: black;
+}
+.lable{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.button-registr{
+    width: 100%;
+    background: #5C98AB;
+    padding: 22px 0;
+    border: none;
 }
