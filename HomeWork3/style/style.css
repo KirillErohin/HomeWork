@@ -94,6 +94,25 @@ body{
 
 }
 
+.square{
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background: #BFDEFB;
+}
+.square:first-child{
+    left: 0px;
+    top: -125px;
+}
+.square:nth-child(2){
+    left: 0px;
+    top: 125px;
+}
+.square:last-child{
+    right: 0px;
+    top: -10px;
+}
+
 .bg-one{
     background-size: cover;
     position: absolute;
