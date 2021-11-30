@@ -172,6 +172,7 @@ font-family: 'Work Sans', sans-serif;
     
 }
 .text-visitors:nth-child(2){
+    font-weight: bold;
     padding:  24px 0;
     font-size: 56px;
     line-height: 56px;
@@ -253,7 +254,7 @@ margin-right: 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 50px;
-    height: 100vh;
+    height: 50vh;
 }
 .item{
    
@@ -266,24 +267,3 @@ margin-right: 30px;
 .item:nth-child(3), .item:nth-child(4){
 grid-row: span 2;
 }
-.item:nth-child(1){
-background-image: url(../img/applehoto.png);
-}
-.item:nth-child(2){
-    background-image: url(../img/bus.png);
-    }
-    .item:nth-child(3){
-        background-image: url(../img/boy.png);
-        }
-        .item:nth-child(4){
-            background-image: url(../img/hand.png);
-            }
-            .item:nth-child(5){
-                background-image: url(../img/phone.png);
-                }
-                .item:nth-child(6){
-                    background-image: url(../img/baby.png);
-                    }
-                    .item:nth-child(7){
-                        background-image: url(../img/dog.png);
-                        }
