@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prochekt</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./script/">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/modal.css">
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
 </head>
 <body>
     <header class="header">
@@ -48,6 +54,8 @@
         </div>
         </nav>
     </div>
+
+
     <div class="header-menu">
 
         <input class="checkbox" checked type="checkbox">
@@ -75,7 +83,7 @@
                 </li>
             </ul>
             <div>
-                <button>
+                <button class="button-menu">
                     Get it
                 </button>
             </div>
@@ -86,9 +94,34 @@
     <!-- header menu  -->
 
     </header>
-    <header>
-        
-    </header>
+
+    <section class="header">
+        <div class="container wrapper-container">
+            <div>
+            <h1 class="h1-header">
+                Build stunning websites & apps.
+            </h1>
+            <p class="title-header">
+                Create live segments and target the right people for messages based on their behaviors.
+            </p>
+
+
+            <div class="">
+
+                <button class="button">
+                    Get Started
+                </button>
+                <button id="modal-button" class="button-white" >
+                    Learn More
+                </button>
+            </div>
+            </div>
+            <div>
+                <img src="./img/pinkman.png" alt="">
+            </div>
+        </div>
+    </section>
+
 
     <!-- Main -->
     <section class="section-main">
@@ -128,6 +161,43 @@
                 
             </div>
         </div>
+    </section>
+    <section class="Features">
+        <div class="container features-container">
+            <div class="features-left">
+                <p class="text-mini text-green">Features</p>
+                <h4 class="roulette-title">Easily find leads and customers</h4>
+                <p class="roulette-pretitle">Send one-off and automated email, push, and in-app messages to people. Create better stories.</p>
+                <div class="icon-play">
+                    <div>
+                        <img src="./img/Icon-kompos.png" alt="">
+                    </div>
+                    <p class="icon-play__info text-blues">Acquire new customers</p>
+                </div>
+                <p class="icon-play__text">Everything you need to start building – including open-source code, documentation.</p>
+                <div class="icon-play">
+                    <div >
+                        <img src="./img/Icon-home.svg" alt="">
+                    </div>
+                    <p class="icon-play__info">Engage users</p>
+                </div>
+                <div  class="icon-play">
+                    <div>
+                        <img src="./img/Icon-drive.svg" alt="">
+                    </div>
+                    <p class="icon-play__info">Develop across platforms</p>
+                </div>
+            </div>
+
+
+
+            <div class="features-right">
+                <div class="features-photo">
+                    <img class="features-photo" src="./img/photo-play-info.png" alt="">
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <section class="bg-pink">
@@ -198,7 +268,7 @@
                     <span>Subscriptions.</span> Foundation works with the tools and services you already use every day.
                 </p>
                 <div class="a-busy">
-                <a class="busy-text-footer bold" href="">
+                <a class="busy-text-footer bold a-footer-text" href="">
                     Learn more about subscriptions
                 </a>
             </div>
@@ -209,7 +279,7 @@
                    <span>Felxible Hours.</span> Get started with our simple snippet of JavaScript or easy to install SDKs for iOS and Android.
                 </p>
                 <div class="a-busy">
-                <a class="busy-text-footer bold" href="">
+                <a class="busy-text-footer bold a-footer-text" href="">
                     Get more info about hours
                 </a>
             </div>
@@ -220,7 +290,7 @@
                     <span>Fast Communication.</span> We offer measures like 2FA and SSO to ensure the safety of your data.
                 </p>
                 <div class="a-busy">
-                <a class="busy-text-footer bold" href="">
+                <a class="busy-text-footer bold a-footer-text" href="">
                     Communication guidelines
                 </a>
             </div>
@@ -282,6 +352,97 @@
             </div>
         </div>
     </section>
+<section>
+    <div class="container">
+        <div class="carusel slick-example">
+                <div class="carusel"> 
+                <p class="balun-text bold">
+                    Trusted by the world’s most innovative businesses – big and small
+                </p> 
+                <p class="balun-text-main">
+                    “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                </p>
+                <h3 class="balun-text-mini bold">Viella Malkovich
+                </h3>
+                <p class="balun-text-gray">
+                    Creative Director at Johnson
+                </p>
+                <div class="balun-logo">
+                    <img class="balun-logo" src="./img/balun.png" alt="">
+                </div>
+                </div>
+<div class="carusel slick-example'">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quasi ratione, fugit perspiciatis quisquam maxime velit numquam nostrum laboriosam porro repudiandae sint tenetur, libero voluptatum deserunt quibusdam aut excepturi nulla?</p>
+</div>
+
+        </div>
+
+    </div>
+</section>
+    <section class="about">
+        <div class="container about-text__container">
+            <div>
+                <h4 class="about-title">
+                    We’re hiring
+                </h4>
+                <p class="about-pretitle">
+                    We’re a team of lifelong learners. We’re equal parts left and right brained.
+                </p>
+                <div>
+                <button class="button about-button">More about Company</button>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="about-items__container">
+            <div div  class="about-items">
+            <div>
+                <p class="about-position">
+                    Front-End Developer
+                </p>
+                <p class="about-position-two">
+                    Los Angeles / Remote
+                </p>
+                <p class="about-icon ">></p>
+            </div>
+            <p class="about-text">
+            Test
+            </p>
+        </div>
+
+        <div  class="about-items">
+            <div>
+                <p class="about-position">
+                    Community Manager
+
+                </p>
+                <p class="about-position-two">
+                    New York / Full-Time
+                </p>
+                <p class="about-icon ">></p>
+            </div>
+            <p class="about-text">
+            Test
+            </p>
+        </div>
+
+        <div  class="about-items">
+            <div>
+                <p class="about-position">
+                    UX/UI Designer
+                </p>
+                <p class="about-position-two"> 
+                    New York / Full-Time
+                </p>
+                <p class="about-icon ">></p>
+            </div>
+            <p class="about-text">
+            Test
+            </p>
+        </div>
+        </div>
+        </div>
+    </section>
 <!-- All Surfaces Covered -->
    <section>
             <div class="container">
@@ -335,8 +496,8 @@
 </div>
 </section>
 
-<footer class="footer">
-    <div class="container ">
+<footer class="footer footer-container">
+    <div class="container  ">
     <div class="container footer-container">
         <div class="logo"> <a href="">
             <img src="./img/Icon.svg" alt="">
@@ -382,8 +543,26 @@
         </div>
     </div>
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script> src="./script/script.js"
-</script>
+<div class="model-overlay">
+    <div class="modal">
+        <div class="modal-contant">
+            <div>
+                <img src="./img/boy.png" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error iste accusamus dignissimos sapiente nulla voluptate cupiditate voluptatibus omnis soluta doloremque?</p>
+        </div>
+        <p class="close">X</p>
+    </div>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./script/slick.js"></script>
+<script src="./script/script.js"></script>
+<script src="./script/modal.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script src="/slick/slick.min.js"></script>
+
+
 </body>
 </html>
