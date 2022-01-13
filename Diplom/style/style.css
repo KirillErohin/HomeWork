@@ -1,0 +1,379 @@
+.container{
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+/* Headers */
+.header-container{
+    padding: 65px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-li{
+    display: inline-block;
+}
+
+.header-li:not(:last-child){
+    margin-right: 20px;
+}
+.header-li > a{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #222831;
+    text-decoration: none;
+}
+.header-li > a:hover{
+    background: none;
+   font-size: 18px;
+    box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+    transition: 0.5s;
+}
+.login{
+    margin-left: 100px;
+}
+.button{
+    padding: 12px 24px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+    margin: 10px ;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background:  #ff5722;
+    box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+    color: white;
+    transition: 1s;
+}
+/* //Headers */
+
+/* Main */
+.container-main{
+    display: flex;
+    justify-content: space-between;
+
+}
+.text-main{
+    max-width: 665px;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 67px;
+    margin-right: 60px;
+    color: #10375C;
+}
+.text-main > span{
+    color:#DD2C00;
+}
+.title-main{
+    font-weight: bold;
+    max-width: 382px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6A6A6A;
+}
+/* Regist */
+.container-registr{
+    display: flex;
+    position: relative;
+}
+.container-registr > div:first-of-type{
+    max-width: 750px;
+    z-index: 1;
+}
+.container-registr > div:last-of-type{
+    position: absolute;
+    top: 0;
+    right: -100px;
+    z-index: 0;
+}
+.main-registr{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 44px;
+    color: #FFFFFF; 
+}
+.input-holder, .input{
+    width: 100%;
+    }
+    .input-holder{
+        margin: 30px 0;
+        position: relative;
+    }
+    .input{
+        padding: 36px 0 11px 34px;
+        font-size: 18px;
+        
+        box-sizing: border-box;
+        background: #0D2C4A;;
+    }
+    
+    .input::placeholder{
+        color: white;
+    }
+    .lable{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        color: white;
+        opacity: 0.35; 
+    }
+    .button-registr{
+        width: 100%;
+        background:  #FF5722;
+        padding: 22px 0;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+    .button-registr:hover{
+        background: #DD2C00;
+        transition: 1s;
+    }
+    .background-registr{
+        margin-top: 55px;
+        max-width: 445px;
+        padding: 40px 40px;
+        background: #10375C;
+    }
+    /* /Registor */
+
+/* /Main */
+
+
+    /* Info Our Spaces */
+    .container-our{
+        padding: 115px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .text-our{
+        max-width: 570px;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 51px;
+        color: #10375C;
+
+    }
+    .title-out{
+    max-width: 450px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9A9A9A;
+    }
+    .fa-arrow-left:hover, .fa-arrow-right:hover{
+        color: #ff5722;
+        transition: 1s;
+    }
+
+    .section-slick-info{
+        display: flex;
+        justify-content: space-between;
+    }
+
+.sticks{
+display: flex;
+
+}
+.container-info__photo{
+    max-width: 350px;
+    
+    background: #10375C;
+    position: relative;
+    
+
+}
+.text-cont{
+    padding: 130px 75px;
+}
+.text-photo{
+    font-size: 32px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.titile-photo{
+    max-width: 253px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.sticks{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    opacity: 0.3;
+}
+.fas-arrow{
+    position: absolute;
+    padding: 30px 30px;
+    color: white;
+    background: #ff5722;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+      /* Info Our Spaces */
+
+
+      /* <!-- Why frispes --> */
+      .info-people-container{
+          padding: 100px 0;
+          display: flex;
+          justify-content: space-between;
+      }
+      .icon-people{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      .icon-logo{
+          display: flex;
+          align-items: center;
+      }
+      .icon-logo > img{
+          margin-right: 25px;
+          
+          
+      }
+      .icon-text-blue{
+        font-size: 32px;
+        line-height: 41px;
+        color: #10375C;
+        margin-bottom: 10px;
+      }
+      .icon-text-mini{
+        font-size: 16px;
+        line-height: 26px;
+        color: #9A9A9A;
+      }
+
+
+
+
+
+      .icon-grids{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 60px;
+    }
+    .item{
+       
+        border-radius: 8px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+    /* bg-frispes */
+    .bg-frispes{
+        max-width: 540px;
+        background: #10375C;
+        color: #FFFFFF;
+        padding: 55px 55px;
+    }
+.text-frispers{
+    max-width: 433px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    margin-bottom: 25px;
+}
+.text-frispers-mini{
+    max-width: 433px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+
+
+}
+.dash-position{
+    display: flex;
+    align-items: center;
+}
+
+.dash{
+    width: 73px;
+    height: 2px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+
+
+    /* <!-- /Why frispes --> */
+/* <!-- Facilities --> */
+
+.container-cafe{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.dash-black{
+    width: 73px;
+    height: 2px;
+    background: black;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 15px;
+}
+.text-cafe{
+    padding: 24px ;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222831
+
+}
+.text-cafe:hover{
+    padding: 24px ;
+    background: #ff5722;
+    color: white;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+
+.text-our:nth-last-child(2){
+    margin-bottom: 80px;
+
+}
+/* <!-- Facilities --> */
+/*  <!-- Frispes gallery --> */
+.gallery-container{
+    padding: 115px 0; 
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* Casrusel */
+.container-corusel{
+    max-width: 350px;
+    margin: 0 auto;
+
+}
+/* /Casrusel */
+
+/*  <!-- Frispes gallery --> */
+
