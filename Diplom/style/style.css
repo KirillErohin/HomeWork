@@ -369,11 +369,252 @@ align-items: center;
 }
 /* Casrusel */
 .container-corusel{
-    max-width: 350px;
+   display: flex;
     margin: 0 auto;
 
+}
+.corusel{
+    display: flex;
 }
 /* /Casrusel */
 
 /*  <!-- Frispes gallery --> */
 
+
+.container-uses{
+    padding: 115px 0;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;  
+}
+.text-uses{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: #0D2C4A;
+    margin-bottom: 25px;
+}
+.title-uses{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9A9A9A;
+}
+.container-logo{
+    max-width: 1175px;
+    align-items: center;
+    margin-bottom: 125px;
+}
+.logo-brend:not(:last-child){
+    margin-right: 45px;
+}
+
+/* Reviews  */
+
+.saying-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviews-window{
+    max-width: 399px;
+}
+
+.container-info-windows{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-people{
+    max-width: 360px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.window-info-blu{
+   max-width: 445px;
+   margin: 0 auto;
+    background: #10375C;
+    padding: 47px 40px;
+    margin-bottom: 150px;
+
+}
+.name-people{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.work-people{
+color: white;
+}
+
+.text-centre{
+    max-width: 578px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.text-mini-window{
+    padding: 40px 40px;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+
+
+}
+.help-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.container-mini-window{
+    max-width: 350px;
+    display: flex;
+    position: relative;
+   background: rgba(223, 223, 223, 0.5); ;
+}
+.arrow-down{
+    display: block;
+    position: absolute;
+    max-width: 50px;
+    right: 50%;
+    top: 85%;
+    background: #FF5722;
+    color: white;
+    padding: 20px 25px;
+
+}
+
+
+
+/* /Reviews */
+
+/* <!-- Events --> */
+.blog-container{
+    background: #F8F8F8;;
+}
+.text-news{
+    padding: 60px ;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    color: #10375C;
+}
+.block-info{
+display: grid;
+grid-template-rows: repeat(3, 1fr);
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+height: 100vh;
+}
+.name-people-blog{
+    font-weight: bold;
+    font-size: 18px;
+    color: #10375C;
+    margin-bottom: 5px;
+}
+.work-people-blog{
+    color: #9A9A9A;
+}
+.white-blog-window{
+    max-width: 380px;
+    margin: 0 auto;
+    background: white;
+    padding: 32px 32px;
+}
+.text-bold-blog{
+    max-width: 315px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    color: #222831;
+    margin-bottom: 25px;
+}
+.text-normal-blog{
+    font-size: 22px;
+    line-height: 28px;
+    color: #222831;
+    margin-bottom: 5px;
+}
+.text-mini-blog{
+    color: #9A9A9A;
+    margin-bottom: 25px;
+}
+.white-blog-window:not(:last-child){
+    margin-right: 30px;
+}
+.events-hover:hover{
+    background: #FF5722;
+}
+.white-blog-window:hover{
+    border-bottom: #FF5722;
+}
+/* <!-- Events --> */
+ 
+
+/* Footer */
+.info-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.bg-footer{
+    background: #10375C;
+    color: white;
+}
+.text-button{
+    margin-bottom: 35px;
+}
+.button-footer{
+    background: #ff5722;
+    color: white;
+    padding: 12px 150px;
+    transition: 1s;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+}
+.button-footer:hover{
+    background: white;
+    color: black;
+    box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+}
+
+.main-bg-footer{
+    background: #0D2C4A;
+    
+}
+.text-mini-footer{
+    padding: 16px 0;
+    max-width: 255px;
+    color: #F8F8F8;
+    opacity: 0.85;
+    text-align: left;
+}
+.became-container{
+ padding: 75px 0;
+}
+.logo-footer{
+padding: 60px 0;
+}
+.footer-logo-info{
+    margin-right: 140px;
+}
+.logo-set:not(:last-child){
+    margin-right: 20px;
+}
+.text-mini-gray{
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+
+opacity: 0.5;
+}
+
+/* Footer */
