@@ -1,8 +1,5 @@
 $('.corusel').slick({
-    infinite: true,
+    autoplay: true,
     dots: true,
-    slidesToShow: 2,
-    slidesToScroll: 1
-});
-
+})
 
